@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+
+header form{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  margin: 0 auto;
+  max-width: 400px;
+  display: block;
+  text-align: center;
+}
+
+.movies {
+  max-width: 55rem;
+}
+
+.data {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
+
+h3 {
+  margin-bottom: 0;
+}
+p{
+  margin-top: 0;
+}
+.data li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
